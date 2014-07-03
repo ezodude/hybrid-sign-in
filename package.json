@@ -1,0 +1,12 @@
+{
+  "name": "smokeTests",
+  "version": "0.0.0",
+  "devDependencies": {
+    "cordova": "*",
+    "ios-sim": "*",
+    "ios-deploy": "*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

@@ -1,0 +1,43 @@
+#####
+# OS X temporary files that should never be committed
+
+.DS_Store
+*.swp
+*.lock
+profile
+
+#####
+# NPM local modules
+
+node_modules/
+
+#####
+# Build artifacts
+
+platforms/*
+www/*
+
+#####
+# Cordova Plugins
+
+plugins/*
+
+#####
+# Logs
+
+*.log
+
+#####
+# Testing
+
+*.trace/*
+
+####
+# vim floaties
+*.un~
+*.swp
+
+####
+# dev server
+dev-server/run/lock.*
+dev-server/run/pid
