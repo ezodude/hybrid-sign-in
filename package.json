@@ -4,7 +4,16 @@
   "devDependencies": {
     "cordova": "*",
     "ios-sim": "*",
-    "ios-deploy": "*"
+    "ios-deploy": "*",
+    "browserify": "^4.2.0",
+    "browserify-shim": "^3.6.0"
+  },
+  "browserify": {
+    "transform": [ "browserify-shim" ]
+  },
+  "browserify-shim": {
+    "app-js": "global:App",
+    "cordova": "global:cordova"
   },
   "engines": {
     "node": ">=0.8.0"
