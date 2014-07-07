@@ -9,7 +9,9 @@
     "browserify-shim": "^3.6.0"
   },
   "browserify": {
-    "transform": [ "browserify-shim" ]
+    "transform": [
+      "browserify-shim"
+    ]
   },
   "browserify-shim": {
     "app-js": "global:App",
@@ -17,5 +19,8 @@
   },
   "engines": {
     "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "browserify-zepto": "^1.1.3"
   }
 }
