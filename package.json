@@ -1,12 +1,15 @@
 {
-  "name": "smokeTests",
+  "name": "hybridSignIn",
   "version": "0.0.0",
   "devDependencies": {
     "cordova": "*",
     "ios-sim": "*",
     "ios-deploy": "*",
     "browserify": "^4.2.0",
-    "browserify-shim": "^3.6.0"
+    "browserify-shim": "^3.6.0",
+    "gulp": "^3.8.5",
+    "vinyl-source-stream": "^0.1.1",
+    "gulp-jshint": "^1.7.0"
   },
   "browserify": {
     "transform": [
