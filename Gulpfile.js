@@ -8,7 +8,7 @@ var gulp = require('gulp'),
     source = require('vinyl-source-stream');
 
 var paths = {
-  src: './src/*',
+  src: './src/**/*',
   www: './www/',
   js: ['./src/**/*.js'],
   jsSrcFile: ['./src/js/main.js'],
