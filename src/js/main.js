@@ -17,6 +17,10 @@
  * under the License.
  */
 
+/*jslint node: true */
+
+'use strict';
+
 var $ = require('browserify-zepto'),
     appJS = require('app-js');
 
@@ -65,7 +69,7 @@ var cordovaShell = {
         }
       });
 
-      $(page).find('.clear').on('click', function(e){
+      $(page).find('.clear').on('click', function(){
         $(page).find('.email').val('');
         $(page).find('.password').val('');
         $(page).find('.error').text('');
