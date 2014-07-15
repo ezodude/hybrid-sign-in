@@ -16,7 +16,6 @@ node_modules/
 
 platforms/*
 www/*
-src/build/*
 
 #####
 # Cordova Plugins

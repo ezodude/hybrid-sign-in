@@ -10,8 +10,7 @@
     "gulp": "^3.8.5",
     "vinyl-source-stream": "^0.1.1",
     "gulp-jshint": "^1.7.0",
-    "del": "^0.1.1",
-    "gulp-notify": "^1.4.0"
+    "exec-sync": "^0.1.6"
   },
   "browserify": {
     "transform": [
